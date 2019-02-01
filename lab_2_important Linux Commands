@@ -1,0 +1,19 @@
+chmod +x lab2_scripts.sh <-- compiles shell scripting
+./lab2_scripts.sh <-- executes shell scripting 
+
+git init --> create a .git file and create a local git instance
+
+git add . --> stage any files you choose to be staged to commit (update) in  		      your local git repository. The "." period here lets you select 		      all of the files that have been added recently or modified
+
+git commit -m "Creating lab2_scripts.sh file" 
+--> update your git repository(local only) with the changes you staged. The -m command is required and will follow with whatever message you wish to store for your commit. 
+
+git remote add origin github_url --> connect your Github Repo replace 					     github_url w/ https url provided 
+
+git push origin master --> The push command will now upload our files to the 				   github repo we designated as the "origin". "master" 				   here means the "master branch" of our repo
+
+
+
+
+
+
